@@ -5,6 +5,7 @@ require __DIR__ . '/../vendor/autoload.php';
 use Illuminate\Http\Request;
 use Illuminate\Contracts\Http\Kernel;
 
+require __DIR__ . '/../public/index.php';
 // Load the Laravel application
 $app = require_once __DIR__ . '/../bootstrap/app.php';
 
